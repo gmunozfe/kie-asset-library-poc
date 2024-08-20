@@ -44,7 +44,7 @@
                                     <artifactId>@quarkus.platform.artifactId@</artifactId>
                                     <version>@version.quarkus.platform@</version>
                                 </quarkusPlatformGav>
-                                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes</quarkusExtensions>
+                                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes,quarkus-resteasy,quarkus-resteasy-jackson</quarkusExtensions>
                             </generate>
                         </projectStructure>
                         <projectStructure>
@@ -73,7 +73,7 @@
                                     <artifactId>@quarkus.platform.artifactId@</artifactId>
                                     <version>@version.quarkus.platform@</version>
                                 </quarkusPlatformGav>
-                                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes</quarkusExtensions>
+                                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes,quarkus-resteasy,quarkus-resteasy-jackson</quarkusExtensions>
                                 <!-- Use settings.xml from this project. For the generating command, the plugin will use just Maven Central
                                      as a remote repo and a separate repository under maven-config-it/target as a local repo -->
                                 <settingsFile>${project.basedir}/settings.xml</settingsFile>
