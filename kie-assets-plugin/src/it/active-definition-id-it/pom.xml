@@ -184,8 +184,13 @@
                         </goals>
                         <configuration>
                             <activeDefinitions>
-                                <activeDefinition>second</activeDefinition>
+                                <activeDefinition>!first</activeDefinition>
                             </activeDefinitions>
+                            <activeStructures>
+                                <activeStructure>!kjar</activeStructure>
+                                <activeStructure>kjar</activeStructure> <!-- should be overridden by the above -->
+                                <activeStructure>!springboot</activeStructure>
+                            </activeStructures>
                         </configuration>
                     </execution>
                 </executions>
