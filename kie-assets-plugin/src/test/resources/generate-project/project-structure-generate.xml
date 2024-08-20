@@ -42,7 +42,7 @@
                   <artifactId>quarkus-platform-artifact-id</artifactId>
                   <version>quarkus-platform-version</version>
                 </quarkusPlatformGav>
-                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes</quarkusExtensions>
+                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes,quarkus-resteasy,quarkus-resteasy-jackson</quarkusExtensions>
               </generate>
             </projectStructure>
             <projectStructure>
@@ -54,7 +54,7 @@
                   <artifactId>quarkus-platform-artifact-id</artifactId>
                   <version>quarkus-platform-version</version>
                 </quarkusPlatformGav>
-                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes</quarkusExtensions>
+                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes,quarkus-resteasy,quarkus-resteasy-jackson</quarkusExtensions>
               </generate>
             </projectStructure>
             <projectStructure>
