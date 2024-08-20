@@ -91,7 +91,7 @@
                                 <archetype>
                                     <groupId>org.kie.kogito</groupId>
                                     <artifactId>kogito-spring-boot-archetype</artifactId>
-                                    <version>@version.kogito@</version>
+                                    <version>@version.kogito.springboot@</version>
                                 </archetype>
                             </generate>
                             <commonConfig>
@@ -184,13 +184,8 @@
                         </goals>
                         <configuration>
                             <activeDefinitions>
-                                <activeDefinition>!first</activeDefinition>
+                                <activeDefinition>second</activeDefinition>
                             </activeDefinitions>
-                            <activeStructures>
-                                <activeStructure>!kjar</activeStructure>
-                                <activeStructure>kjar</activeStructure> <!-- should be overridden by the above -->
-                                <activeStructure>!springboot</activeStructure>
-                            </activeStructures>
                         </configuration>
                     </execution>
                 </executions>
