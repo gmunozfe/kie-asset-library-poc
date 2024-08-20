@@ -72,7 +72,7 @@
                                     <artifactId>@quarkus.platform.artifactId@</artifactId>
                                     <version>@version.quarkus.platform@</version>
                                 </quarkusPlatformGav>
-                                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes</quarkusExtensions>
+                                <quarkusExtensions>kogito-quarkus-decisions,kogito-quarkus-rules,kogito-quarkus-predictions,kogito-quarkus-processes,quarkus-resteasy,quarkus-resteasy-jackson</quarkusExtensions>
                             </generate>
                             <commonConfig>
                                 <reusableConfig>clean-main-resources-and-readme</reusableConfig>
