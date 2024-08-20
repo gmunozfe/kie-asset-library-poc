@@ -25,6 +25,7 @@
 
     <version.kie>7.60.0.Final</version.kie>
     <version.kogito>1.13.2.Final</version.kogito>
+    <version.kogito.springboot>1.13.0.Final</version.kogito.springboot>
     <version.quarkus.platform>2.13.9.Final</version.quarkus.platform>
     <version.junit>4.12</version.junit>
     <!-- plugin versions -->
