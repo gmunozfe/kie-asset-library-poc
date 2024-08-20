@@ -191,7 +191,7 @@
         <profile>
             <id>decisions-processes-capability</id>
             <properties>
-                <quarkus.extensions>kogito-quarkus-decisions,kogito-quarkus-processes</quarkus.extensions>
+                <quarkus.extensions>kogito-quarkus-decisions,kogito-quarkus-processes,quarkus-resteasy,quarkus-resteasy-jackson</quarkus.extensions>
                 <springboot.starters>decisions,processes</springboot.starters>
             </properties>
         </profile>
